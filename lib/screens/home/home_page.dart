@@ -81,12 +81,12 @@ class _HomePageState extends State<HomePage> {
                       Row(children: [Column(children:
                       [Padding(
                         padding: const EdgeInsets.all(3.0),
-                        child: Container(decoration: BoxDecoration(border: Border.all(color: Colors.black,style: BorderStyle.solid),borderRadius: BorderRadius.circular(15.0),color: Colors.greenAccent),
+                        child: Container(decoration: BoxDecoration(border: Border.all(color: Colors.black,style: BorderStyle.none),borderRadius: BorderRadius.circular(15.0),color: Colors.greenAccent),
                             padding: const EdgeInsets.all(3.0),child: Text("Albums Id "+todoItem.id.toString(),style: TextStyle(fontSize: 10.0,fontWeight: FontWeight.normal))),
                       )],),
                       Column(children: [Padding(
                         padding: const EdgeInsets.all(3.0),
-                        child: Container(decoration: BoxDecoration(border: Border.all(color: Colors.black,style: BorderStyle.solid),borderRadius: BorderRadius.circular(15.0),color: Colors.yellowAccent),
+                        child: Container(decoration: BoxDecoration(border: Border.all(color: Colors.black,style: BorderStyle.none),borderRadius: BorderRadius.circular(15.0),color: Colors.yellowAccent),
                             padding: const EdgeInsets.all(3.0),child: Text("User Id "+todoItem.userId.toString(),style: TextStyle(fontSize: 10.0,fontWeight: FontWeight.normal))),
                       )],)],)
                       ],
